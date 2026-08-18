@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Zentro Works — All-in-One Tech Partner</title>
+  <meta name="description" content="Zentro Works is a modern technology company helping businesses build, grow, and scale through web development, branding, SEO, and digital marketing." />
+  <link rel="canonical" href="https://www.thezentroworks.online/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.thezentroworks.online/" />
+  <meta property="og:title" content="Zentro Works — All-in-One Tech Partner" />
+  <meta property="og:description" content="From strategy to execution, we build smart digital solutions that grow your brand and scale your business." />
+  <meta property="og:image" content="/assets/og-image.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@thezentroworks" />
+  <meta name="twitter:title" content="Zentro Works — All-in-One Tech Partner" />
+  <meta name="twitter:description" content="From strategy to execution, we build smart digital solutions that grow your brand and scale your business." />
+  <meta name="twitter:image" content="/assets/og-image.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <header class="nav" id="nav" role="banner">
+    <div class="container nav__inner">
+      <a href="/" class="nav__logo" aria-label="Zentro Works — Home">
+        <img src="assets/zentro-logo-mark.png" alt="Zentro Works logo mark" class="nav__logo-mark" width="36" height="36" />
+        <span class="nav__logo-text">ZENTRO <strong>WORKS</strong></span>
+      </a>
+
+      <nav class="nav__links" role="navigation" aria-label="Main navigation">
+        <a href="#hero" class="nav__link">Home</a>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#services" class="nav__link">Services</a>
+        <a href="#projects" class="nav__link">Portfolio</a>
+        <a href="#about" class="nav__link">Team</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+
+      <a href="#contact" class="btn btn--primary nav__cta">Start a Project</a>
+
+      <button class="nav__toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="nav__mobile" id="mobile-menu" role="dialog" aria-label="Mobile navigation" aria-hidden="true">
+      <nav>
+        <a href="#hero" class="nav__mobile-link">Home</a>
+        <a href="#services" class="nav__mobile-link">Services</a>
+        <a href="#projects" class="nav__mobile-link">Portfolio</a>
+        <a href="#about" class="nav__mobile-link">About</a>
+        <a href="#contact" class="nav__mobile-link">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn--primary nav__mobile-cta">Start a Project</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         HERO
+    ============================================================ -->
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <div class="container hero__inner">
+
+        <!-- Left -->
+        <div class="hero__content reveal">
+          <div class="hero__badge">
+            <span class="hero__badge-dot"></span>
+            All-in-One Tech Partner
+          </div>
+
+          <h1 class="hero__title" id="hero-heading">
+            The Technology<br />
+            Behind Your<br />
+            <span class="hero__title-accent">Next Breakthrough.</span>
+          </h1>
+
+          <p class="hero__description">
+            We don't just build websites. We engineer digital presences that
+            think, perform, and grow — so your business can focus on what it
+            does best.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary btn--lg">Start a Project</a>
+            <a href="#projects" class="btn btn--ghost btn--lg">
+              Explore Our Work
+              <svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+          <div class="hero__stats">
+            <div class="hero__stat">
+              <strong class="hero__stat-number">50+</strong>
+              <span class="hero__stat-label">Projects Delivered</span>
+            </div>
+            <div class="hero__stat-divider" aria-hidden="true"></div>
+            <div class="hero__stat">
+              <strong class="hero__stat-number">30+</strong>
+              <span class="hero__stat-label">Clients Worldwide</span>
+            </div>
+            <div class="hero__stat-divider" aria-hidden="true"></div>
+            <div class="hero__stat">
+              <strong class="hero__stat-number">3+</strong>
+              <span class="hero__stat-label">Years of Excellence</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Visual -->
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__visual-bg"></div>
+
+          <!-- Center logo mark -->
+          <div class="hero__visual-center">
+            <img src="assets/zentro-logo-mark.png" alt="" class="hero__visual-logo hero-float" width="120" height="120" />
+          </div>
+
+          <!-- Floating cards -->
+          <div class="hero__card hero__card--tl float-delay-1">
+            <div class="hero__card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            </div>
+            <span class="hero__card-label">Web Development</span>
+          </div>
+
+          <div class="hero__card hero__card--tr float-delay-2">
+            <div class="hero__card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35M11 8v6M8 11h6"/></svg>
+            </div>
+            <span class="hero__card-label">SEO Growth</span>
+          </div>
+
+          <div class="hero__card hero__card--bl float-delay-3">
+            <div class="hero__card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <span class="hero__card-label">Branding</span>
+          </div>
+
+          <div class="hero__card hero__card--br float-delay-4">
+            <div class="hero__card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+            </div>
+            <span class="hero__card-label">Analytics</span>
+          </div>
+
+          <div class="hero__card hero__card--top float-delay-2">
+            <div class="hero__card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <span class="hero__card-label">Marketing</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Decorative background -->
+      <div class="hero__decor" aria-hidden="true">
+        <div class="hero__decor-circle hero__decor-circle--1"></div>
+        <div class="hero__decor-circle hero__decor-circle--2"></div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WHY ZENTRO EXISTS
+    ============================================================ -->
+    <section class="why" id="about" aria-labelledby="why-heading">
+      <div class="container">
+        <div class="section-label reveal">Our Philosophy</div>
+        <h2 class="section-title reveal" id="why-heading">
+          We exist because<br />good businesses deserve<br />
+          <span class="text-accent">great technology.</span>
+        </h2>
+        <p class="section-description reveal">
+          Too many companies settle for average digital solutions. We believe
+          technology should be a competitive advantage — not just a checkbox.
+          Zentro Works bridges the gap between strategy and execution,
+          delivering solutions that are as intelligent as they are beautiful.
+        </p>
+
+        <div class="why__pillars reveal">
+          <div class="why__pillar">
+            <div class="why__pillar-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+            </div>
+            <h3 class="why__pillar-title">Speed to Market</h3>
+            <p class="why__pillar-text">We move fast without cutting corners. Your launch happens on time, every time.</p>
+          </div>
+          <div class="why__pillar">
+            <div class="why__pillar-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3 class="why__pillar-title">Built to Last</h3>
+            <p class="why__pillar-text">Every system we build is engineered for longevity — not yesterday's trends.</p>
+          </div>
+          <div class="why__pillar">
+            <div class="why__pillar-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 class="why__pillar-title">True Partnership</h3>
+            <p class="why__pillar-text">We don't disappear after launch. We grow with you, adapt with you, win with you.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SERVICES
+    ============================================================ -->
+    <section class="services" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-label reveal">What We Do</div>
+        <h2 class="section-title reveal" id="services-heading">
+          Everything your business<br />needs, <span class="text-accent">under one roof.</span>
+        </h2>
+        <p class="section-description reveal">
+          From a single brand identity to a full digital ecosystem —
+          we bring strategy, creativity, and engineering together so
+          you never have to coordinate between five different agencies.
+        </p>
+
+        <div class="services__grid">
+
+          <article class="service-card reveal" tabindex="0">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            </div>
+            <h3 class="service-card__title">Web Development</h3>
+            <p class="service-card__text">
+              Modern, performant websites and applications that convert visitors
+              into customers — built to the highest technical standards.
+            </p>
+            <ul class="service-card__features">
+              <li>Custom website design & development</li>
+              <li>WordPress &amp; CMS solutions</li>
+              <li>E-commerce platforms</li>
+              <li>Performance optimization</li>
+            </ul>
+            <div class="service-card__arrow" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </article>
+
+          <article class="service-card reveal" tabindex="0">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3 class="service-card__title">Branding &amp; Identity</h3>
+            <p class="service-card__text">
+              A brand that commands respect before you say a word. We craft
+              visual identities that are distinctive, memorable, and scalable.
+            </p>
+            <ul class="service-card__features">
+              <li>Logo design &amp; brand guidelines</li>
+              <li>Visual identity systems</li>
+              <li>Brand strategy</li>
+              <li>Marketing collateral</li>
+            </ul>
+            <div class="service-card__arrow" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </article>
+
+          <article class="service-card reveal" tabindex="0">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            </div>
+            <h3 class="service-card__title">SEO &amp; Growth</h3>
+            <p class="service-card__text">
+              Rank higher, be found faster, and grow organically. We engineer
+              search visibility that compounds over time and drives real revenue.
+            </p>
+            <ul class="service-card__features">
+              <li>Technical SEO audits</li>
+              <li>On-page &amp; off-page optimization</li>
+              <li>Content strategy</li>
+              <li>Ranking &amp; reporting</li>
+            </ul>
+            <div class="service-card__arrow" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </article>
+
+          <article class="service-card reveal" tabindex="0">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+            </div>
+            <h3 class="service-card__title">Digital Marketing</h3>
+            <p class="service-card__text">
+              Data-driven campaigns that reach the right audience at the right
+              moment — turning marketing spend into measurable business results.
+            </p>
+            <ul class="service-card__features">
+              <li>Performance &amp; paid media</li>
+              <li>Social media management</li>
+              <li>Email marketing</li>
+              <li>Analytics &amp; reporting</li>
+            </ul>
+            <div class="service-card__arrow" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PROCESS
+    ============================================================ -->
+    <section class="process" id="process" aria-labelledby="process-heading">
+      <div class="container">
+        <div class="section-label reveal">How We Work</div>
+        <h2 class="section-title reveal" id="process-heading">
+          A process that<br /><span class="text-accent">never misses.</span>
+        </h2>
+
+        <div class="process__timeline" role="list">
+
+          <div class="process__step reveal" role="listitem">
+            <div class="process__step-number" aria-hidden="true">01</div>
+            <div class="process__step-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+            </div>
+            <h3 class="process__step-title">Discover</h3>
+            <p class="process__step-text">We listen deeply. Understanding your business, goals, and audience before a single pixel is drawn.</p>
+          </div>
+
+          <div class="process__connector" aria-hidden="true"></div>
+
+          <div class="process__step reveal" role="listitem">
+            <div class="process__step-number" aria-hidden="true">02</div>
+            <div class="process__step-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            </div>
+            <h3 class="process__step-title">Design</h3>
+            <p class="process__step-text">From wireframes to high-fidelity visuals, every detail is considered — and approved by you.</p>
+          </div>
+
+          <div class="process__connector" aria-hidden="true"></div>
+
+          <div class="process__step reveal" role="listitem">
+            <div class="process__step-number" aria-hidden="true">03</div>
+            <div class="process__step-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3 class="process__step-title">Develop</h3>
+            <p class="process__step-text">Clean code, robust architecture, and rigorous quality assurance — built to perform from day one.</p>
+          </div>
+
+          <div class="process__connector" aria-hidden="true"></div>
+
+          <div class="process__step reveal" role="listitem">
+            <div class="process__step-number" aria-hidden="true">04</div>
+            <div class="process__step-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+            </div>
+            <h3 class="process__step-title">Grow</h3>
+            <p class="process__step-text">Launch is not the end. We iterate, optimize, and scale alongside your business continuously.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FEATURED PROJECTS
+    ============================================================ -->
+    <section class="projects" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-label reveal">Our Work</div>
+        <h2 class="section-title reveal" id="projects-heading">
+          Built with intention.<br /><span class="text-accent">Measured by results.</span>
+        </h2>
+        <p class="section-description reveal">
+          Each project is approached as a unique challenge. No templates,
+          no shortcuts — only purposeful solutions.
+        </p>
+
+        <div class="projects__grid">
+
+          <article class="project-card reveal" tabindex="0">
+            <div class="project-card__visual project-card__visual--blue" aria-hidden="true">
+              <div class="project-card__placeholder-icon">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+              </div>
+            </div>
+            <div class="project-card__content">
+              <span class="project-card__tag">Concept Project</span>
+              <h3 class="project-card__title">Corporate Web Platform</h3>
+              <p class="project-card__text">Full-stack web presence redesign with custom CMS integration, performance engineering, and conversion optimization.</p>
+              <div class="project-card__meta">
+                <span class="project-card__tech">Web Development</span>
+                <span class="project-card__tech">Branding</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" tabindex="0">
+            <div class="project-card__visual project-card__visual--dark" aria-hidden="true">
+              <div class="project-card__placeholder-icon">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              </div>
+            </div>
+            <div class="project-card__content">
+              <span class="project-card__tag">Concept Project</span>
+              <h3 class="project-card__title">Brand Identity System</h3>
+              <p class="project-card__text">Complete visual identity from logo design and brand guidelines to marketing collateral and digital asset library.</p>
+              <div class="project-card__meta">
+                <span class="project-card__tech">Branding</span>
+                <span class="project-card__tech">Design</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" tabindex="0">
+            <div class="project-card__visual project-card__visual--mid" aria-hidden="true">
+              <div class="project-card__placeholder-icon">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+              </div>
+            </div>
+            <div class="project-card__content">
+              <span class="project-card__tag">Concept Project</span>
+              <h3 class="project-card__title">Digital Growth Campaign</h3>
+              <p class="project-card__text">Integrated SEO and performance marketing campaign delivering measurable organic growth and improved search rankings.</p>
+              <div class="project-card__meta">
+                <span class="project-card__tech">SEO</span>
+                <span class="project-card__tech">Marketing</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         TECHNOLOGY STACK
+    ============================================================ -->
+    <section class="tech-stack" id="stack" aria-labelledby="stack-heading">
+      <div class="container">
+        <div class="section-label reveal">Our Stack</div>
+        <h2 class="section-title reveal" id="stack-heading">
+          Tools chosen for<br /><span class="text-accent">precision, not trend.</span>
+        </h2>
+
+        <div class="tech-stack__grid" role="list">
+
+          <div class="tech-card reveal" role="listitem" tabindex="0">
+            <div class="tech-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none"><path d="M4 4h24v24H4z" fill="#E44D26"/><path d="M16 26l-9-2.5-1.5-16h21L25 23.5z" fill="none"/><path d="M8 8h16l-1.4 14L16 24l-6.6-2L8 8z" fill="#E44D26"/><path d="M16 10.5v11l4.5-1.3.7-7.2H16" fill="#fff"/><path d="M16 10.5H11l.5 3H16v2H12l.5 5.2L16 21.8" fill="#EBEBEB"/></svg>
+            </div>
+            <span class="tech-card__name">HTML5</span>
+          </div>
+
+          <div class="tech-card reveal" role="listitem" tabindex="0">
+            <div class="tech-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none"><path d="M4 4h24v24H4z" fill="#1572B6"/><path d="M8 8h16l-.7 8H13l.2 2.5L16 19.8l2.8-.9.3-3h3l-.6 6L16 24l-3.5-1.1L12 20H9l.4 4.5L16 27l6.6-2.5L24 8H8z" fill="#fff"/></svg>
+            </div>
+            <span class="tech-card__name">CSS3</span>
+          </div>
+
+          <div class="tech-card reveal" role="listitem" tabindex="0">
+            <div class="tech-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="2" fill="#F7DF1E"/><path d="M8 27l2.7-1.6c.5.9 1 1.7 2.1 1.7 1.1 0 1.7-.4 1.7-2.1v-11h3.4v11.1c0 3.5-2 5-5 5C11 30 9.3 28.6 8 27zM18.7 26.7l2.7-1.6c.7 1.2 1.7 2 3.4 2 1.4 0 2.3-.7 2.3-1.7 0-1.2-.9-1.6-2.5-2.3l-.8-.4c-2.5-1-4.2-2.4-4.2-5.1 0-2.5 1.9-4.4 4.9-4.4 2.1 0 3.7.7 4.8 2.6l-2.6 1.7c-.6-1-1.2-1.4-2.2-1.4-1 0-1.6.6-1.6 1.4 0 1 .6 1.4 2.1 2l.8.4c3 1.3 4.7 2.5 4.7 5.4 0 3.1-2.4 4.7-5.6 4.7-3.2 0-5.2-1.5-6.2-3.5z" fill="#323330"/></svg>
+            </div>
+            <span class="tech-card__name">JavaScript</span>
+          </div>
+
+          <div class="tech-card reveal" role="listitem" tabindex="0">
+            <div class="tech-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none"><path d="M2 6.5C2 5.1 3.1 4 4.5 4h23c1.4 0 2.5 1.1 2.5 2.5v19c0 1.4-1.1 2.5-2.5 2.5h-23C3.1 28 2 26.9 2 25.5v-19z" fill="#21759B"/><path d="M10 12H6v2h4v7h2v-7h4v-2H10zM22 19l-3-7h-2v10h2v-7l3 7h2l3-7v7h2V12h-2l-3 7z" fill="#fff"/></svg>
+            </div>
+            <span class="tech-card__name">WordPress</span>
+          </div>
+
+          <div class="tech-card reveal" role="listitem" tabindex="0">
+            <div class="tech-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none"><path d="M4 4h24v24H4z" fill="#777BB3"/><path d="M11.5 14.5c0 1.1-.9 2-2 2H8v3H6.5v-7H9.5c1.1 0 2 .9 2 2zm-1.5 0c0-.3-.2-.5-.5-.5H8v1h1.5c.3 0 .5-.2.5-.5zM16 12.5h-3v7h3c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5zm0 5.5h-1.5V14H16c1.1 0 2 .9 2 2s-.9 2-2 2zM23 14v2h2.5v1.5H23v3h-1.5v-7H26V14h-3z" fill="#fff"/></svg>
+            </div>
+            <span class="tech-card__name">PHP</span>
+          </div>
+
+          <div class="tech-card reveal" role="listitem" tabindex="0">
+            <div class="tech-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none"><ellipse cx="16" cy="9" rx="12" ry="5" fill="#00758F"/><path d="M4 9v5c0 2.8 5.4 5 12 5s12-2.2 12-5V9" fill="#F29111" fill-opacity="0"/><path d="M4 9v5c0 2.8 5.4 5 12 5s12-2.2 12-5V9c0 2.8-5.4 5-12 5S4 11.8 4 9z" fill="#F29111"/><path d="M4 14v5c0 2.8 5.4 5 12 5s12-2.2 12-5v-5c0 2.8-5.4 5-12 5S4 16.8 4 14z" fill="#00758F"/><ellipse cx="16" cy="9" rx="12" ry="5" fill="none" stroke="#00758F" stroke-width="0"/><ellipse cx="16" cy="9" rx="12" ry="5" fill="#00758F"/><ellipse cx="16" cy="9" rx="10" ry="3.5" fill="#F29111"/></svg>
+            </div>
+            <span class="tech-card__name">MySQL</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WHY CHOOSE US
+    ============================================================ -->
+    <section class="why-us" aria-labelledby="why-us-heading">
+      <div class="container">
+        <div class="why-us__inner">
+          <div class="why-us__content">
+            <div class="section-label reveal">Why Zentro</div>
+            <h2 class="section-title reveal" id="why-us-heading">
+              We don't just deliver services.<br />
+              <span class="text-accent">We build long-term success.</span>
+            </h2>
+            <p class="section-description reveal">
+              Most agencies hand you a deliverable and move on. We build
+              systems that scale, partnerships that last, and results that
+              compound — because your growth is the only metric we care about.
+            </p>
+          </div>
+
+          <div class="why-us__points">
+            <div class="why-us__point reveal">
+              <div class="why-us__point-check" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13 4L6.5 11 3 7.5" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div>
+                <h3 class="why-us__point-title">Strategy First, Always</h3>
+                <p class="why-us__point-text">Every project starts with a strategy session. We understand before we execute.</p>
+              </div>
+            </div>
+
+            <div class="why-us__point reveal">
+              <div class="why-us__point-check" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13 4L6.5 11 3 7.5" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div>
+                <h3 class="why-us__point-title">Transparent Communication</h3>
+                <p class="why-us__point-text">No black boxes. You see progress, give feedback, and stay in control at every stage.</p>
+              </div>
+            </div>
+
+            <div class="why-us__point reveal">
+              <div class="why-us__point-check" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13 4L6.5 11 3 7.5" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div>
+                <h3 class="why-us__point-title">Results That Are Measurable</h3>
+                <p class="why-us__point-text">We set KPIs before we start and report on them honestly — good news or not.</p>
+              </div>
+            </div>
+
+            <div class="why-us__point reveal">
+              <div class="why-us__point-check" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13 4L6.5 11 3 7.5" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div>
+                <h3 class="why-us__point-title">One Partner, Everything</h3>
+                <p class="why-us__point-text">From logo to landing page to ad campaign — handled under one roof, with one point of contact.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CTA
+    ============================================================ -->
+    <section class="cta" aria-labelledby="cta-heading">
+      <div class="container">
+        <div class="cta__inner reveal">
+          <div class="cta__label">Ready?</div>
+          <h2 class="cta__title" id="cta-heading">Ready to Build What's Next?</h2>
+          <p class="cta__text">
+            Let's talk about where your business is going — and build the
+            digital foundation that gets you there.
+          </p>
+          <div class="cta__actions">
+            <a href="#contact" class="btn btn--white btn--lg">Start a Project</a>
+            <a href="mailto:thezentroworks@gmail.com" class="btn btn--ghost-white btn--lg">thezentroworks@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT
+    ============================================================ -->
+    <section class="contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact__inner">
+          <div class="contact__info">
+            <div class="section-label reveal">Get In Touch</div>
+            <h2 class="section-title reveal" id="contact-heading">
+              Let's start a<br /><span class="text-accent">conversation.</span>
+            </h2>
+            <p class="section-description reveal">
+              Whether you have a clear brief or just an idea — we're here to
+              help shape it into something real.
+            </p>
+
+            <div class="contact__details reveal">
+              <a href="https://wa.me/923315937664" class="contact__detail" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp: +92 331 5937664">
+                <div class="contact__detail-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                </div>
+                <span>+92 331 5937664</span>
+              </a>
+              <a href="mailto:thezentroworks@gmail.com" class="contact__detail" aria-label="Email: thezentroworks@gmail.com">
+                <div class="contact__detail-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <span>thezentroworks@gmail.com</span>
+              </a>
+              <a href="https://www.thezentroworks.online" class="contact__detail" target="_blank" rel="noopener noreferrer" aria-label="Website: www.thezentroworks.online">
+                <div class="contact__detail-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                </div>
+                <span>www.thezentroworks.online</span>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact__form reveal" id="contact-form" novalidate aria-label="Contact form">
+            <div class="form-group">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" id="name" name="name" class="form-input" placeholder="John Smith" required autocomplete="name" aria-required="true" />
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="john@company.com" required autocomplete="email" aria-required="true" />
+            </div>
+            <div class="form-group">
+              <label for="service" class="form-label">Service of Interest</label>
+              <select id="service" name="service" class="form-input form-select" aria-required="false">
+                <option value="" disabled selected>Select a service</option>
+                <option value="web">Web Development</option>
+                <option value="branding">Branding &amp; Identity</option>
+                <option value="seo">SEO &amp; Growth</option>
+                <option value="marketing">Digital Marketing</option>
+                <option value="other">Other / Not Sure</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Tell us about your project</label>
+              <textarea id="message" name="message" class="form-input form-textarea" rows="4" placeholder="Describe your goals, timeline, and any details that might help..." required aria-required="true"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full" aria-label="Send message">
+              Send Message
+              <svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <p class="form-note" id="form-feedback" aria-live="polite"></p>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__top">
+
+        <div class="footer__brand">
+          <a href="/" class="footer__logo" aria-label="Zentro Works — Home">
+            <img src="assets/zentro-logo-mark.png" alt="" class="footer__logo-mark" width="40" height="40" />
+            <div class="footer__logo-text">
+              <span class="footer__logo-name">ZENTRO WORKS</span>
+              <span class="footer__logo-tagline">One Partner. Endless Solutions.</span>
+            </div>
+          </a>
+          <p class="footer__brand-text">
+            A modern technology company helping businesses build,
+            grow, and scale through branding, web development,
+            digital marketing, and SEO.
+          </p>
+          <div class="footer__social" aria-label="Social media links">
+            <a href="https://facebook.com/thezentroworks" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://instagram.com/thezentroworks" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://x.com/thezentroworks" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l16 16M4 20L20 4"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <nav class="footer__nav" aria-label="Footer navigation">
+          <div class="footer__nav-col">
+            <h3 class="footer__nav-title">Services</h3>
+            <ul class="footer__nav-list">
+              <li><a href="#services" class="footer__nav-link">Web Development</a></li>
+              <li><a href="#services" class="footer__nav-link">Branding &amp; Identity</a></li>
+              <li><a href="#services" class="footer__nav-link">SEO &amp; Growth</a></li>
+              <li><a href="#services" class="footer__nav-link">Digital Marketing</a></li>
+            </ul>
+          </div>
+          <div class="footer__nav-col">
+            <h3 class="footer__nav-title">Company</h3>
+            <ul class="footer__nav-list">
+              <li><a href="#about" class="footer__nav-link">About</a></li>
+              <li><a href="#process" class="footer__nav-link">Process</a></li>
+              <li><a href="#projects" class="footer__nav-link">Portfolio</a></li>
+              <li><a href="#contact" class="footer__nav-link">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer__nav-col">
+            <h3 class="footer__nav-title">Contact</h3>
+            <ul class="footer__nav-list">
+              <li><a href="https://wa.me/923315937664" class="footer__nav-link" target="_blank" rel="noopener noreferrer">+92 331 5937664</a></li>
+              <li><a href="mailto:thezentroworks@gmail.com" class="footer__nav-link">thezentroworks@gmail.com</a></li>
+              <li><a href="https://www.thezentroworks.online" class="footer__nav-link" target="_blank" rel="noopener noreferrer">www.thezentroworks.online</a></li>
+            </ul>
+          </div>
+        </nav>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copy">
+          &copy; <span id="footer-year">2025</span> Zentro Works. All rights reserved.
+        </p>
+        <p class="footer__tagline">Strategy &middot; Technology &middot; Creativity &middot; Growth</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
